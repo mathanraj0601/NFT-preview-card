@@ -1,0 +1,150 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Outfit', sans-serif;
+	font-size: 14px;
+	font-weight:300;
+}
+main{
+	height: 97vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: hsl(217, 54%, 11%);
+	font-size: 1. rem;
+}
+#block-eth
+{
+	/*text-align: center;*/
+	width: 290px;
+	height: auto;
+	box-sizing: border-box;
+	padding: 20px;
+	/*margin: 20px;*/
+	background:hsl(216, 50%, 16%);
+	border-radius: 10px;
+
+}
+
+#image-eq
+{
+	border-radius: 10px;
+}
+#image-eq:hover
+{
+	fill: hsl(178, 100%, 50%);
+
+}
+#images{
+	border-radius: 10px;
+	position: absolute;
+	bottom: 295px;
+	height: 250px;
+    width: 250px;
+    display: block;
+    background: transparent;
+}
+#images:hover
+{
+	display: block;
+	background: hsl(178, 100%, 50%);
+	background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+	opacity: 0.5;
+}
+h1
+{
+	font-weight: 600;
+	font-size: 20px;
+	margin: 12px 0px;
+	color: hsl(0, 0%, 100%);
+}
+h1:hover
+{
+	color:  hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+p
+{
+	font-weight:300;
+	line-height: 1.5;
+	color:  hsl(215, 51%, 70%);
+}
+
+#avatar
+{
+	border-radius: 50%;
+	border: 1px solid hsl(0, 0%, 100%);
+	position: relative;
+	top: 11px;
+}
+#eth
+{
+	border-bottom: 1px solid hsl(215, 32%, 27%);
+	padding: 10px 0px;
+}
+
+.eth-image
+{
+
+	position: relative;
+	top: 4px;
+}
+#eth-item1, #eth-item2
+{
+	display: inline-block;
+}
+#eth-item2
+{
+	margin-left:80px;
+}
+#eth-span1
+{
+	color:  hsl(178, 100%, 50%);
+	font-weight: 400;
+	margin-left:4px ;
+}
+
+#eth-span2
+{
+	color:  hsl(215, 51%, 70%);
+	font-weight: 400;
+}
+#eth-avatar
+{
+	padding: 5px 0px;
+	
+}
+
+#ava-span1
+{
+	font-weight: 300;
+	margin-left: 10px;
+	color:hsl(215, 51%, 70%) ;
+}
+#ava-span2
+{
+	font-weight: 300;
+	color:hsl(0, 0%, 100%) ;
+}
+#ava-span2:hover
+{
+	color:  hsl(178, 100%, 50%);
+	cursor: pointer;
+
+}
+#footer-para
+{
+	font-weight: 700;
+	color:  hsl(178, 100%, 50%);
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	background: hsl(217, 54%, 11%);
+}
