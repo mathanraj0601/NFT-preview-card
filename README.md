@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/mathanraj0601/NFT-preview-card.git]
+- Live Site URL: [https://mathanraj0601.github.io/NFT-preview-card/]
 
 ## My process
   reate a Tree struvture to have a overview of the tag going to be used.
