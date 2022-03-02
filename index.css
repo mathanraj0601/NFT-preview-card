@@ -33,6 +33,13 @@ main{
 {
 	border-radius: 10px;
 }
+@media screen and (max-width: 375px)
+{
+	#images{
+		bottom: 335px;
+
+	}
+}
 #image-eq:hover
 {
 	fill: hsl(178, 100%, 50%);
